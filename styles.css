@@ -1,0 +1,246 @@
+/* Global styles */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+}
+
+body {
+    background-color: #F4F6FF;
+}
+
+h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 30pt;
+    color: #10375C;
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: left;
+}
+
+h4 {
+    background-color: #F3C623;
+    width: 50px;
+    height: 5px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #10375C;
+    font-size: 14pt;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Title / Navbar / Main styles; consistent across all pages */
+
+div.title {
+    background-color: #10375C;
+    line-height: 2em;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 42pt;
+    color: #F4F6FF;
+    text-align: center;
+}
+
+div.navbar {
+    background-color: #F3C623;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: black;
+}
+
+div.navbar div {
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    color: #10375C;
+    background-color: #F3C623;
+}
+
+div.navbar div:hover {
+    filter: brightness(0.8);
+}
+
+div.navbar div:active {
+    filter: brightness(0.5);
+}
+
+div#main {
+    background-color: #F4F6FF;
+}
+
+/* Home page styles */
+
+div.home-title h2 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+div.home-title h4 {
+    width: 100px;
+    margin: 0 auto 0 auto;
+}
+
+table.home-table {
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: 0;
+    width: 90%;
+    height: 100%;
+    border-spacing: 3em;
+}
+
+table.home-table tbody {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+table.home-table td {
+    vertical-align: top;
+    text-align: center;
+    width: 50%;
+    border: 5px solid #10375C;
+    background-color: white;
+    padding-bottom: 1em;
+}
+
+table.home-table h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #10375C;
+    font-size: 22pt;
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+
+table.home-table h3:hover {
+    cursor: pointer;
+}
+
+table.home-table h4 {
+    margin-bottom: 2em;
+}
+
+table.home-table p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 12pt;
+}
+
+div.pdf-viewer {
+    display: block;
+}
+
+div.pdf-viewer img {
+    width: 80%;
+}
+
+div.pdf-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+div.pdf-viewer button {
+    padding: 1em 2em 1em 2em;
+    margin: 0 3em 0 3em;
+}
+
+audio {
+    margin-top: 1em;
+}
+
+table.home-table h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #10375C;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+/* Bio page styles */
+
+div.bio-container {
+    max-width: 80%;
+    display: block;
+    margin: 3em auto 3em auto;
+    background-color: white;
+    padding: 1em 0 1em 0;
+    height: 100%;
+    border: 5px solid #10375C;
+}
+
+table.bio-table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+table.bio-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+table.bio-table img {
+    width: 80%;
+}
+
+table.bio-table h4 {
+    margin: 0;
+}
+
+table.bio-table p {
+    color: #10375C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: left;
+}
+
+/* Resume page styles */
+
+img.resume-img {
+    max-width: 60%;
+    display: block;
+    margin: 3em auto 3em auto;
+}
+
+/* Footer styles; consistent across all pages */
+
+div.footer {
+    background-color: #10375C;
+}
+
+table.footer-table {
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    float: left;
+}
+
+table.footer-table td {
+    vertical-align: middle;
+    text-align: center;
+    width: 33.3%;
+}
+
+table.footer-table p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 8pt;
+    text-align: center;
+}
