@@ -78,7 +78,6 @@ let rightContent = [`   <h3 onclick="switchRight()"><u>Santeria</u></h3>
                         </div>
                         <audio controls>
                             <source src="Santeria.mp3" type="audio/mpeg">
-                            <source src="Santeria.wav" type="audio/wav">
                             <source src="Santeria.ogg" type="audio/ogg">
                         </audio>
                     `,
